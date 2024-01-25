@@ -19,9 +19,6 @@ class History
         $this->address = $address;
     }
 
-    public function __construct2()
-    {}
-
     // get behavior
     public function getNameUser(): string
     {

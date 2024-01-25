@@ -18,22 +18,22 @@ class Buyer extends User
     }
     public function setBuyersData(User $buyers_data)
     {
-        $this->buyers_data = $buyers_data;
+        $this->buyers_data[] = $buyers_data;
     }
 
     public function setUsername(string $username)
     {
-        $this->username = $username;
+        $this->username[] = $username;
     }
 
     public function setCart(Cart $cart)
     {
-        $this->cart = $cart;
+        $this->cart[] = $cart;
     }
 
     public function setHistory(History $history)
     {
-        $this->history = $history;
+        $this->history[] = $history;
     }
 
     //get behavior
